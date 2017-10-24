@@ -36,7 +36,7 @@ Type: `object`
 
 Type: `string`
 
-Default: ??
+Default: `.`
 
 ##### sort
 
@@ -45,6 +45,32 @@ Type: `string`
 Values: `hot` `new` `top` `controversial`
 
 Default: `hot`
+
+##### from
+
+Type: `string`
+
+Values: `hour` `day` `week` `month` `year` `all`
+
+Default: `all`
+
+##### score
+
+Type: `int`
+
+Default: `100`
+
+##### limit
+
+Type: `int`
+
+Default: `5`
+
+##### over18
+
+Type: `bool`
+
+Default: `false`
 
 ##### scale
 
@@ -61,26 +87,6 @@ Default: 1920
 Type: `int`
 
 Default: 1080
-
-##### from
-
-Type: `string`
-
-Values: `hour` `day` `week` `month` `year` `all`
-
-Default: `all`
-
-##### score
-
-Type: `int`
-
-Default: `100`
-
-##### over18
-
-Type: `bool`
-
-Default: `false`
 
 ## Related
 

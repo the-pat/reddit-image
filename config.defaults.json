@@ -1,0 +1,12 @@
+{
+    "dir": ".",
+    "sort": "hot",
+    "from": "all",
+    "score": 100,
+    "over18": false,
+    "limit": 5,
+    "scale": {
+        "width": 1920,
+        "height": 1080
+    }
+}

@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# Images
+*.jpg
+*.png
+*.gif
+*.webp
+*.tif
+*.bmp
+*.psd

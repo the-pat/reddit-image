@@ -1,22 +1,27 @@
 {
-  "name": "reddit-image",
-  "version": "1.0.0",
-  "description": "Grabs a random image from reddit",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/the-pat/reddit-image.git"
-  },
-  "author": "the-pat",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/the-pat/reddit-image/issues"
-  },
-  "homepage": "https://github.com/the-pat/reddit-image#readme",
-  "dependencies": {
-    "got": "^7.1.0"
-  }
+    "name": "reddit-image",
+    "version": "1.0.0",
+    "description": "Grabs a random image from reddit",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/the-pat/reddit-image.git"
+    },
+    "author": "the-pat",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/the-pat/reddit-image/issues"
+    },
+    "homepage": "https://github.com/the-pat/reddit-image#readme",
+    "dependencies": {
+        "got": "^7.1.0",
+        "image-type": "^3.0.0",
+        "read-chunk": "^2.1.0"
+    },
+    "engines": {
+        "node": ">=7.6"
+    }
 }
