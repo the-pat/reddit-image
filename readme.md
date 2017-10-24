@@ -32,6 +32,12 @@ The subreddit to download the image from.
 
 Type: `object`
 
+##### dir
+
+Type: `string`
+
+Default: ??
+
 ##### sort
 
 Type: `string`
@@ -39,6 +45,22 @@ Type: `string`
 Values: `hot` `new` `top` `controversial`
 
 Default: `hot`
+
+##### scale
+
+Type: `object`
+
+###### width
+
+Type: `int`
+
+Default: 1920
+
+###### height
+
+Type: `int`
+
+Default: 1080
 
 ##### from
 
